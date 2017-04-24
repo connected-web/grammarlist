@@ -1,16 +1,17 @@
 function grammarList(list, clause = 'and', sort = true) {
+  let copy = [].concat(list)
   if (sort) {
-    list.sort((a, b) => {
+    copy.sort((a, b) => {
       return a.localeCompare(b, 'en', {
         'sensitivity': 'base'
       });
     });
   }
-  if (list.length > 1) {
-    var end = list[list.length - 1]
-    return list.slice(0, -1).join(', ') + `, ${clause} ` + end
-  } else if (list.length === 1) {
-    return list[0];
+  if (copy.length > 1) {
+    var end = copy[copy.length - 1]
+    return copy.slice(0, -1).join(', ') + `, ${clause} ` + end
+  } else if (copy.length === 1) {
+    return copy[0];
   }
   return ''
 }
