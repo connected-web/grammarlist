@@ -28,6 +28,18 @@ grammarList(list:Array, clause:String='and', sort:Boolean=true) {
 }
 ```
 
+## Tests
+```
+Grammar List
+
+  ✓ should return a string
+  ✓ should place a default clause `and` before the final item
+  ✓ should allow a custom clause to be used
+  ✓ should sort the list of items by default
+  ✓ should allow sorting to be turned off
+  ✓ should not modify the sort order of the input
+```
+
 ## Development
 
 Clone this repo, then run:
