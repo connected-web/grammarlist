@@ -1,0 +1,11 @@
+{
+  "name": "grammarlist",
+  "version": "1.0.0",
+  "description": "Function to display a list in a more grammatical fashion",
+  "main": "module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Beech",
+  "license": "ISC"
+}
