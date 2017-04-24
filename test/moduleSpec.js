@@ -1,8 +1,8 @@
+/* global describe it */
 const expect = require('chai').expect
 const grammarList = require('../module')
 
 describe('Grammar List', () => {
-
   let sortedList = ['Apples', 'Bananas', 'Clementines', 'Pears']
   let unsortedList = ['Triela', 'Henrietta', 'Claus', 'Angelica']
 

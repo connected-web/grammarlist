@@ -4,12 +4,13 @@
   "description": "Function to display a list in a more grammatical fashion",
   "main": "module.js",
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "standard && mocha --recursive"
   },
   "author": "John Beech",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "standard": "^10.0.2"
   }
 }
